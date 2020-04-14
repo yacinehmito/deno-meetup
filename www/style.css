@@ -1,0 +1,79 @@
+body {
+  font-family: Patron;
+  background-color: white;
+  line-height: 1.4;
+  font-size: 16px;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  padding: 20px 30px 0 30px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+main > * {
+  width: 100%;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+}
+
+.logos > img {
+  width: 200px;
+}
+
+ul {
+  margin: 0;
+}
+
+button {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  outline: none;
+  box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.4);
+  background-color: #6041B2;
+}
+
+button:active {
+  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.4);
+}
+
+button:hover {
+  background-color: rgb(78, 48, 162);
+}
+
+.spin-button {
+  margin-top: 20px;
+  max-width: 200px;
+  line-height: 1.8;
+  padding: 4px 0 0 0;
+  font-size: 20px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+@keyframes spin {
+  100% {
+    transform:rotate(360deg);
+  }
+}
+
+.spin {
+  animation:spin 1s linear normal;
+}
