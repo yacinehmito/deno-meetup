@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "esnext", "deno.ns"],
+    "jsx": "react",
+    "jsxFactory": "h",
+    "strict": true
+  },
+  "include": ["./ts"]
+}

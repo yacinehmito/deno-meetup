@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "esnext"],
+    "jsx": "react",
+    "jsxFactory": "h",
+    "outDir": "./www/js",
+    "strict": true,
+    "sourceMap": false,
+    "inlineSourceMap": true
+  },
+  "include": ["./ts"]
+}
